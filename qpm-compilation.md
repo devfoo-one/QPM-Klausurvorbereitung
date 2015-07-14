@@ -115,6 +115,14 @@ Qualitätssicherung
 		-	beweist mit mathematischen Mitteln die Konsistenz zwischen der Spezifikation und der Implementierung einer Systemkomponente
 	-	Symbolische Ausführung
 		-	Ein Quellprogramm wird mit allgemeinen symbolischen Eingabewerten durch einen Interpreter ausgeführt
+3.	Analysierende Verfahren (**vermessen bestimmte Eigenschaften** von Systemkomponenten)
+	-	Analyse der Bindungsart
+		-	ein funktionales Modul soll funktional gebunden sein
+		-	eine funktionale Bindung liegt vor, wenn alle Elemente des Moduls an der Verwirklichung einer einzigen, abgeschlossenen Funktion beteiligt sind
+	-	Metriken
+		-	Eigenschaften wie strukturelle Komplexität, Programmlänge, Grad der Kommentierung, ... quantitativ ermitteln und mit bisherigen Maßzahlen vergleichen
+	-	Grafiken und Tabellen
+		-	erlauben es ein Programm unter speziellen Gesichtspunkten zu analysieren und die Ergebnisse in gut lesbarer und interpretierbarer Form darzustellen
 
 Dynamische Testverfahren
 ========================
@@ -182,3 +190,11 @@ weitere Testverfahren
 
 Softwaremetriken
 ================
+
+Projektmanagement
+=================
+
+Projektmanagement ist aus der Sicht der Organisationslehre eine **Koordinationsmethode**.
+
+Was ist ein Projekt?
+--------------------
