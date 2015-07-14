@@ -71,7 +71,7 @@ Sechs Qualitätsmerkmale werden allgemin unterschieden. Diese können auf jede A
 	-	*Verbrauchsverhalten*
 		-	Anzahl und Dauer der benötigten Betriebsmittel (Ressourcen) für die Erfüllung der Funktionen
 	-	...
--	**Änderbarkeit**
+-	**Änderbarkeit** (findet er wohl besonders interessant!)
 	-	*Analysierbarkeit*
 		-	Aufwand, um Mängel oder Ursachen von Versagen zu diagnostizieren
 	-	*Modifizierbarkeit*
@@ -198,3 +198,84 @@ Projektmanagement ist aus der Sicht der Organisationslehre eine **Koordinationsm
 
 Was ist ein Projekt?
 --------------------
+
+-	Es ist eine **einmalige** Aufgabe.
+-	Es ist eine **komplexe** Aufgabe.
+-	Es ist **terminlich befristet**.
+-	Es wird von mehreren **Personen, Arbeitsgruppen, Gremien** durchgeführt.
+
+Aber eine Aufgabe kann auch ein Projekt sein wenn nicht sämtliche Punkte der Definition zutreffen.
+
+### Projektunterscheidungen
+
+-	**Art**
+	-	Entwicklungsprojekt
+	-	Weiterentwicklung
+	-	Wartung
+	-	Änderungsprojekt
+	-	Evaluierungsprojekt
+	-	Rollout / Deployment
+-	**Größe**
+	-	kleines Projekt (> 20 PT , < 100 PT)
+	-	mittelgroßes Projekt (> 100 PT , < 200 PT)
+	-	großes Projekt (> 200 PT)
+
+Begriffe
+--------
+
+### Projektleitung
+
+Bei der Projektleitung handelt es sich um die **verantwortliche Leitung** eines Proekts, wobei in der überwiegenden Anzahl der Fälle der Projektleiter **nicht die Kompetenzen eines Disziplinarvorgesetzten** hat. Projektleitung ist **häufig nur eine temporäre Aufgabe**
+
+### Projektmanagement
+
+Der Begriff Projektmanagement wird dann verwendet, wenn es sich um die **Verantwortung für mehrere Projekte** handelt, oder wenn der Projektleiter **auch die Funktion eines Disziplinarvorgesetzten** hat.
+
+> Projektmanagement ist die Gesamtheit von Führungsaufgaben, -organisation, -techniken und -mittel für die Abwicklung eines Projekts.
+
+Aufgaben des Projektmanagements
+-------------------------------
+
+### Aufgaben und Ziele
+
+-	Sicherstellen dass **Projektziele** und **Projektaufgaben** klar definiert sind.
+-	**Notwendigkeit**, Bedeutung und Sinn des Projekts sicherstellen
+
+### Organisation und Kompetenzen
+
+-	Eindeutige **Projektleitung** und **Projektorganisation** festlegen
+-	Projektleitung und -organisation zweckmäßig in die **Struktur des Unternehmens einbetten**
+-	**Kompetenzen** klar regeln. **Überschneidungen** vermeiden
+
+### Akzeptanz und Identifikation
+
+-	Sicherstellen, dass das Projekt von allen Beteiligten (spätere Anwender, Entwickler) **akzeptiert wird** und diese sich mit dem Proekt identifizieren
+-	**Marketing** für das Projekt machen
+-	die späteren Anwender in den Entwicklungsprozess **einbeziehen**
+-	**"Kollektive Verantwortung"** herstellen
+-	Kommunikationsbeziehungen vom Proekt **zum Anwender** herstellen
+-	**Angst** vor Neuerungen nehmen
+-	Starke politische Einflüsse **wahrnehmen**
+
+### Projektinterne Faktoren
+
+-	**Erfahrene Projektleiter** verwenden
+-	**Realistische Projektplanung** vornehmen
+-	die späteren Anwender in den Entwicklungsprozess **einbeziehen**
+-	**Mehrfachbelastung** des Projektleiters und der Mitarbeiter vermeiden.
+-	**Konflikte** erkennen und beseitigen
+-	**Überforderungen** erkennen und beseitigen
+
+Probleme des Projektmanagements
+-------------------------------
+
+-	unrealistische **Zeitschiene**
+-	externe **Einflüsse**
+-	Fehleinschätzung von **Projektrisiken**
+-	unrealistische **Ressourcenplanung**
+-	unternehmensinterne **Widerstände**
+-	personelle **Fehlbesetzung**
+-	unklare **Zieldefinition**
+
+Prinzip der fortschreitenden Verfeinerung
+-----------------------------------------
