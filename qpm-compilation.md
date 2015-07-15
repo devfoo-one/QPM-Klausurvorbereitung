@@ -692,10 +692,46 @@ Die zyklomatische Komplexität ist exakt definiert. Die Ergebnisse beginnen bei 
 Codeüberdeckungsgrad
 --------------------
 
+Das übergeordnete Ziel besteht darin, mit **möglichst wenigen Testfällen alle Anweisungen, Zweige oder sogar Pfade im Testobjekt abzudecken.** Der Prozentsatz der abgedeckten Programmelemente heißt Codeüberdeckungsgrad. (code coverage). Damie werden die Testfälle im Verhältnis zum Quellcode bewertet.
+
 ### C0 (Anweisungsüberdeckung)
+
+Die Anweisungsüberdeckung ist das **Verhältnis der Anzahl der durchlaufenen Anweisungen zur Gesamtzahl der Anweisungen eines Testobjekts.**.
+
+*C0 = 100% bedeutet, dass alle Anweisungen mindestens einmal mit einem Testfall ausgeführt wurden.*
 
 ### C1 (Zweigüberdeckung)
 
+Die Zweigüberdeckung (branch coverage) ist das **Verhältnis der durchlaufenen Zweige (if, Schleifen, switch) zur Gesamtzahl der Zweige eines Testobjekts.**
+
+*C1 = 100% bedeutet, dass alle Entscheidungen mindestens einmal mit "Ja" und einmal mit "Nein" ausgeführt wurden.*
+
 ### C2 (Überdeckung aller Bedingungskombinationen)
 
+Die Überdeckung alles Bedingungskombinationen ist das **Verhältnis der Anzahl der durch Testfälle überdeckten Bedingungskombinationen zur Gesamtanzahl der möglichen Bedingungskombinationen.** Eine Bedingung kann aus mehreren Prädikaten (Teiltermen) bestehen. Die Bedingung `(x>3) && (y=2)` besteht aus zwei Prädikaten welche durch ein logisches UND miteinander verbunden sind. C2 beobachtet ob jeder Teilterm jeden Wahrheitswert angenommen hat, also in diesem Beispiel 4 Varianten.
+
+*C2 = 100% bedeutet, dass innerhalb eines Testobjekts alle möglichen Kombinationen von Bedingungen durch Testfälle abgedeckt sind.*
+
+![](img/c2.jpg)
+
 ### C-unendlich (Pfadüberdeckung)
+
+Die Pfadüberdeckung (path coverage) ist das **Verhältnis der Anzahl der durch Testfälle überdeckten Pfade zur Gesamtzahl der Pfade eines Testobjekts.**
+
+**Ein Pfad ist eine konkrete Ablaufmöglichkeit des Programms.** Z.b. gibt es an einer If-Verzweigung zwei Möglichkeiten, weiterzulaufen, damit also 2 Pfade.
+
+**Schleifen führen zu mehr Pfaden:**
+
+-	Wird eine Schleife einmal durchlaufen, so ist das ein Pfad
+-	Wird sie zweimal durchlaufen, ist das ein weiterer Pfad usw...
+
+Wegen der Schleifenproblematik unterscheidet man folgende Pfadüberdeckungen:
+
+-	**C-unendlich-a** = alle Pfade werden getestet
+	-	Problem: Bei Programmen mit Schleifen kann es unendlich viele Pfade geben
+-	**C-unendlich-b** = wie C-unendlich-a , jedoch Schleifendurchläufe auf `<=2` reduziert
+-	**C-unendlich-n** = wie C-unendlich-a, jedoch Schleifendurchläufe auf `n` reduziert
+	-	Vorteil: Hohe Fehlererkennungsrate
+	-	Nachteil: nicht ansprechbare Pfade auf Grund von Bedingungen
+
+*C-unendlich = 100% bedeutet, dass alle möglichen Pfade durch Testfälle abgedeckt wurden. Falls das Testobekt keine Wiederholungsschleife beinhaltet, ist C2 = C-unendlich*
