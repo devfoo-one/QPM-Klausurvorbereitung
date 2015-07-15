@@ -624,3 +624,78 @@ Im Testplan müssen **testobjekte** definiert werden. Diese bilden die **Basis f
 *Nicht jedes Testziel ist auf jedes Testobjekt anwendbar*
 
 ![](img/testziele1.jpg)
+
+#### Testphase
+
+![](img/testphase1.jpg)
+
+##### Entwicklungstest
+
+Es werden die Testobjekte
+
+-	TF
+-	FK
+-	MA
+-	IO
+-	LI
+
+in (möglicherweise autarken) Testumgebungen gegen die Vorgabe getestet.
+
+##### Anwendungstest
+
+Nach der Durchführung der Entwicklungstests und Erreichen eines definierten Fertigstellungsgrades (Status) werden die **Anwendungen** (anwendungsintern) in (möglicherweise autarken) Testumgebungen getestet. Hierfür sollten pro Anwendungsbereich getrennte Umgebungen zur Verfügung stehen.
+
+##### Gesamttest
+
+Nach der Durchführung der Anwendungstests und Erreichen eines definierten Fertigstellungsgrades werden die **Systeme** (anwendungsübergreifend) in einer gemeinsamen Testumgebung (Vorproduktion) getestet. In dieser Umgebung finde eine Produktionssimulation der Abläufe statt, so wei dies möglich ist.
+
+##### Abnahmetest
+
+Nach Durchführung der internen Systemtests beim Auftraggeber wird gemeinsam mit dem Auftraggeber der Abnahmetest durchgeführt.
+
+### Testvorbereitung
+
+TODO FILL ME
+
+Softwaremetriken
+================
+
+Softwaremetriken **vermessen und vergleichen** Software und ihren Entwicklungsprozess. Diese Information kann man man verwenden **um etwas zu verbessern**. Man ändert etwas, und misst erneut. Am Ergebnis kann man ablesen, ob die Veränderung auch wirklich zur gewünschten Verbesserung geführt hat.
+
+> Eine Softwaremetrik ist allgemein eine Funktion, die eine **Softwareeinheit** in einen **Zahlenwert** abbildet. Dieser Wert ist interpretierbar als der Erfüllungsgrad eines Qualitätsziels für die Softwareeinheit
+
+(Die Softwareeinheit ist im Allgemeinen eine **Methode**, eine Klasse, eine Vererbungshierarchie, ein Modul...)
+
+Lines Of Code
+-------------
+
+Es werden die Quellcode-Zeilen eines Programms gezählt. **Es muss jedoch definiert werden ob z.B. Programmzeilen ohne Anweisung `{}` oder Kommentarzeilen mitgezählt werden**.
+
+```markdown
+Zyklomatische Komplexität [auf Codebasis] =
+	Anzahl der Verzweigungen (if-then, if-then-else(auch 1))
+	+ Anzahl der Schleifen (for, while, repeat)
+	+ je: Anzahl der Zweige - 1 (case, switch)
+	+ 1
+```
+
+![](img/mccabe1.jpg)
+
+-	Rekursionen zählen wie ein normaler Aufruf
+-	< 10 = niedrig, < 20 = mittel, < 50 hoch, > 50 undurchschaubar
+
+Zyklomatische Komplexität von McCabe
+------------------------------------
+
+Die zyklomatische Komplexität ist exakt definiert. Die Ergebnisse beginnen bei 1 und sind nach oben nicht beschränkt.
+
+Codeüberdeckungsgrad
+--------------------
+
+### C0 (Anweisungsüberdeckung)
+
+### C1 (Zweigüberdeckung)
+
+### C2 (Überdeckung aller Bedingungskombinationen)
+
+### C-unendlich (Pfadüberdeckung)
