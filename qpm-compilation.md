@@ -279,3 +279,21 @@ Probleme des Projektmanagements
 
 Prinzip der fortschreitenden Verfeinerung
 -----------------------------------------
+
+Zunächst wird das **gesamte Projekt geplant**. Da hier jedoch viele Einzelheiten noch nicht sichtbar sind und keine stimmende Planung möglich ist wird das Projekt in **Phasen aufgeteilt** und innerhalb dieser inhaltlich verfeinert. Bei Abschluss einer Phase wird die ursprüngliche Phasenplanung, sowie die Gesamtprojektplanung überprüft.
+
+![](img/fortschreitende_verfeinerung1.jpg)
+
+### Phasenentscheidung
+
+Am Ende jeder Phase steht die Phasenentscheidung, die auf den bisher erarbeiteten (inhaltlichen) Ergebnissen und den korrigierten / angepassten Werten der Projektplanung basiert.
+
+Sie kann drei Alternativ-Richtungen verfolgen:
+
+-	**Freigabe** der nächsten Phase
+-	**Zurückweisung** dieser Phase
+-	**Projektabbruch**
+
+![](img/fortschreitende_verfeinerung2.jpg)
+
+Phasenentscheidungen bedeuten teilweise erheblichen **zeitlichen Aufwand**. Auch wenn dieser Aufwand, je nach Vereinbarung, nicht budget-relevant ist, sollte er dennoch **terminlich berücksichtigt** werden.
