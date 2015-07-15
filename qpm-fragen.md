@@ -29,7 +29,9 @@ QPM Fragen
 
 ![](img/ws11_hk_48.jpg)
 
-***TODO: Antwort finden***
+**Falsch**
+
+> File-Sharing ermöglicht keine Versionsverwaltung.
 
 #### Die Versionsverwaltungsstrategie Lock-Modify-Unlock schließt Versionskonflikte aus (SS2008 HK)
 
