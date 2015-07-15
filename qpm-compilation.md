@@ -47,6 +47,8 @@ DIN ISO 9126:
 
 > Softwarequalität ist die Gesamtheit der **Merkmale** und **Merkmalswerte** eines Softwareprodukts, die sich auf die **Eignung** beziehen, festgelegte oder vorausgesetzte **Erfordernisse** zu erfüllen.
 
+### Qualitätsmerkmale von Software
+
 Sechs Qualitätsmerkmale werden allgemin unterschieden. Diese können auf jede Art von Software angewandt werden:
 
 -	**Funktionalität**
@@ -90,6 +92,7 @@ Sechs Qualitätsmerkmale werden allgemin unterschieden. Diese können auf jede A
 		-	Aufwand zur Ausführung von Verbesserungen, zur Fehlerbeseitigung oder Anpassung an Umgebungsänderungen
 	-	*Prüfbarkeit*
 		-	Aufwand, der zur Prüfung der geänderten Software notwendig ist
+		-	Das Außmaß, in dem ein System das Erstellen von Testbedingungen sowie die Durchführung der Tests erleichtert.
 	-	*Stabilität*
 		-	Wahrscheinlichkeit des Auftretens unerwarteter Wirkungen von Änderungen, Seiteneffekte
 	-	...
@@ -254,11 +257,6 @@ weitere Testverfahren
 
 -	GUI Tests
 -	Inhalts- und Pixelvergleich
-
-Softwaremetriken
-================
-
-TODO FILL ME
 
 Projektmanagement
 =================
@@ -522,3 +520,65 @@ Softwarequalität wird durch **Qualitätsmerkmale** beschrieben. Diese Merkmale 
 	-	z.B. "Bedienbarkeit"
 
 Damit diese Anforderungen mit *analytischen Maßnahmen* **mess- und bewertbar** gemacht werden können, müssen die Teilmerkmale durch **Qualitätsindikatoren** bzw. **Metriken** beschrieben werden. Quantifizierbare Indikatoren werden mit Hilfe von **Qualitätsmaßen** quantitativ gemessen.
+
+Testmanagement
+==============
+
+Testkonzept
+-----------
+
+> Testen ist die Ausführung eines Programms mit dem Ziel, Fehler zu finden ... ohne das Ziel, möglichst viele, schwere Fehler zu finden, verliert der Test an Biss und Wirkung
+
+Das Testkonzept ist die **Zusammenfassung aller wesentlichen Festlegungen** im Rahmen des Folgenden **Testprozesses** und ist als solches binden für die spätere Durchführung. *Das Testkonzept enthält die im folgenden beschriebenen Vereinbarungen zu:*
+
+-	**Testmanagement** (Rollen- und Infrastrukturdefinition)
+-	**Testplan** (Definition von Testinhalten und Abhängigkeiten)
+-	**Testvorbereitung** (Methodenauswahl für Testfälle und -daten)
+-	**Testdurchführung** ("Nur nicht denken","Testen macht Spaß!")
+-	**Testauswertung, Fehlermanagement**
+
+### Testmanagement
+
+-	nennt die am Testvorgehen beteiligten Personen innerhalb ihrer **funktionellen Rollen**
+-	definiert die vorgesehene **Testumgebung**
+
+#### Testverantwortliche
+
+-	es wird der **Personenkreis** definiert, der für das Testvorhaben benötigt wird
+
+#### Rollen
+
+-	***Berater und/oder Coach***
+	-	**Testplanung und Testmanagement**
+	-	**Testvorgehen**
+	-	Erstellung von **Testhandbüchern**
+	-	Einführung von **Testmethoden und -techniken**
+	-	**Unterstützung firmeninterner Mitarbeiter bei der Umsetzung der Testmethoden und -techniken**
+-	***Testfallersteller***
+	-	**Definition von Testfallschablonen** mittels entsprechender Methoden
+	-	Testfallschablonen beschreiben beispielsweise **Geschäftsprozesse** auf der Basis kundenseitig vorgegebener fachlicher Anforderungen
+-	***Tester***
+	-	**Durchführung von Tests** auf der Basis von Testprozeduren und von kundenseitig mit entsprechenden **Testdaten** ergänzten **Testfallschablonen**
+	-	Testprozeduren beschreiben beispielsweise im GUI-Test präzise den durchzuführenden Ablauf
+
+#### Testumgebung
+
+*Die Umgebung in der Tests ablaufen, hat Einfluss auf die Ergebnisse!* Jedes System hat einen Zustand, der die Ergebnisse beeinflusst. (z.B. hohe Netzwerklast auf der Testumgebung führt zu längeren Antwortzeiten, Datenbank ändert sich plötzlich...). So iest es bei geplantem Einsatz automatischer Tests mit anschließendem automatischen Vergleich unumgänglich, **autarke Testumgebungen** zur Verfügung zu stellen. Die Definition der Testumgebung **spezifiziert das Umfeld** in dem später der Test durchzuführen ist.
+
+### Testplan
+
+Der Testplan beschreibt:
+
+-	*wie werden die Testfälle angewendet?*
+-	*wie werden die Testfälle durchgeführt?*
+-	*wer ist wann mit dem Testen an der Reihe?*
+-	*welche Testfälle werden welcher Ressource zugeordnet?*
+
+Im Zuge des Projektverlaufs werden aus **Entwicklungsobjekten sogenannte** ***Testobjekte***. Der Testplan listet zu jedem einzelnen Testobjekt die durchzuführenden **Tests** (Testaktivitäten) sowie deren **Abhängigkeiten** zueinander auf.
+
+Vorteile eines Testplans sind:
+
+-	eine **bessere Planung** des Testprozesses
+-	**frühzeitige Aussagen** über Termine der Testaktivitäten
+-	**präzise Informationen** für den Projektleiter bzgl. des **Fertigstellungsgrades**
+-	**bewusste Integration** der Testaktivitäten in den Entwicklungsprozess
