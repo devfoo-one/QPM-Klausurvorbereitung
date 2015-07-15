@@ -582,3 +582,45 @@ Vorteile eines Testplans sind:
 -	**frühzeitige Aussagen** über Termine der Testaktivitäten
 -	**präzise Informationen** für den Projektleiter bzgl. des **Fertigstellungsgrades**
 -	**bewusste Integration** der Testaktivitäten in den Entwicklungsprozess
+
+#### Testobjekte / Testkandidaten
+
+Im Testplan müssen **testobjekte** definiert werden. Diese bilden die **Basis für die Planung der Tests** hinsichtlich der Abhängigkeiten der Testobjekte zueinander, für die Definitien spezieller Testziele sowie für die **Testdurchführung**. Je nach Testphase werden die Testobjekte **vom feinsten Detaillierungsgrad** ausgehend **immer größer und komplexer**.
+
+-	***Teilfunktionalität (TF)***
+	-	*fachlich* : eine **Teilfunktionalität innerhalb eines Geschäftsprozesses** (beispielsweise Bearbeitung eines Tarifes)
+	-	*technisch* : **ein** definiertes **Modul**
+-	***Informationsobjekt (IO)***
+	-	Eine **Datei** oder eine **Datenbank**
+-	***Geschäftsprozess oder Funktionalität (FK)***
+	-	*fachlich* : ein **durchgängiger Ablauf eines Geschäftsprozesses** innerhalb eines Bereiches der Anwendung (z.B. Tarifierung - Bearbeitung aller Tarife)
+	-	*technisch* : Verknüpfung **mehrerer Module** zu einem Programm
+-	***Maske (MA)***
+	-	eine logische **Eingabemaske** innerhalb einer Funktinalität (Geschäftsprozess) oder Teilfunktionalität (z.B. Erfassungsmaske bei der Anlage eines Kunden)
+-	***Liste, Bericht oder Dokument (LI)***
+	-	eine Liste oder Dokument als **Ausgabe** einer Funktionalität bzw. Maske (z.B. Auflistung aller Kunden)
+-	***Anwendung (ANW)***
+	-	**Zusammenfassung aller Geschäftsprozesse innerhalb eines Bereiches** des Systems (z.B. Monatsabschluss)
+-	***System (SYS)***
+	-	ein durchgängiger Ablauf, der sich **über mehrerer verschiedene Bereiche** erstreckt (z.B. Buchungstag, Monatsabschluss etc.)
+
+#### Testziel
+
+-	***Test der Funktionalität (FT - Funktionalitäts- bzw. Modultest)***
+	-	**Verifikation der Algorithmen** eines Testobjekts **auf Anweisungsebene**
+	-	kann nur bei Testobjekten mit **hohem Detaillierungsgrad** (z.B. TF) durchgeführt werden
+-	***Test der Steuerung (I1 - Integrationstest 1)***
+	-	erfolgt *innerhalb des Testobjekts* und bezieht sich auf die **Steuerung eines anderen, angestoßenen Objekts**, also die im Testobjekt definierte Logik die Schnittstelle eines anderen Testobjektes zu verwenden
+-	***Test der Schnittstellen (I2 - Integrationstest 2)***
+	-	erfolgt *zwischen dem definierten Testobjekt* und einem anderen *referenzierten Objekt*, wobei der Test in beide Richtungen betrachtet werden muss
+-	***Test der fachlichen Abläufe (ST - Standard)***
+	-	prüft **alle Möglichkeiten des Prozessablaufes** die in der Realität existieren
+	-	ist die Zusammenfassung der Tests der **Steuerung**, der **Funktionalität** sowie der **Schnittstellen aus fachlicher Sicht** auf der Basis einer einzelnen Teilfunktionalität oder Funktionalität
+-	***Überprüfung datenorientierter Inhalte (IH - Inhaltstest)***
+	-	inhaltlicher Test, bezieht sich bei Masken und Listen oder Dokumente auf die **Überprüfung der adressatengerechten Information** (richtiges Attribut auf richtiger Maske)
+-	***Überprüfung von Masken und Listen auf Ergonomie (ER - Ergonomie)***
+	-	z.B. ob die **Erfassungsequenz** (Reihenfolge der Eingabefelder) in Masken der natürlichen Lesesequenz des Bedieners oder den Informationsfolgen auf Erfassungsbelegen entspricht.
+
+*Nicht jedes Testziel ist auf jedes Testobjekt anwendbar*
+
+![](img/testziele1.jpg)
