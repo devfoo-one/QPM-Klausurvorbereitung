@@ -704,6 +704,11 @@ Lines Of Code
 
 Es werden die Quellcode-Zeilen eines Programms gezählt. **Es muss jedoch definiert werden ob z.B. Programmzeilen ohne Anweisung `{}` oder Kommentarzeilen mitgezählt werden**.
 
+Zyklomatische Komplexität von McCabe
+------------------------------------
+
+Die zyklomatische Komplexität ist exakt definiert. Die Ergebnisse beginnen bei 1 und sind nach oben nicht beschränkt.
+
 ```markdown
 Zyklomatische Komplexität [auf Codebasis] =
 	Anzahl der Verzweigungen (if-then, if-then-else(auch 1))
@@ -716,11 +721,6 @@ Zyklomatische Komplexität [auf Codebasis] =
 
 -	Rekursionen zählen wie ein normaler Aufruf
 -	< 10 = niedrig, < 20 = mittel, < 50 hoch, > 50 undurchschaubar
-
-Zyklomatische Komplexität von McCabe
-------------------------------------
-
-Die zyklomatische Komplexität ist exakt definiert. Die Ergebnisse beginnen bei 1 und sind nach oben nicht beschränkt.
 
 Codeüberdeckungsgrad
 --------------------
