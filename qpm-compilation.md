@@ -100,6 +100,8 @@ Qualitätsmanagement
 
 > **Qualitätsmanagement** umfasst alle Tätigkeiten der Gesamtführungsaufgabe, welche die **Qualitätspolitik, Ziele und Verantwortungen festlegen** sowie diese durch Mittel wie Qualitätsplanung, Qualitätslenkung, Qualitätssicherung und Qualitätsverbesserung im Rahmen des Qualitätsmanagementsystems **verwirklichen** (DIN EN ISO 8402)
 
+Qualitätsmanagement sind *strategische*, ***projektübergreifende***, *aufeinander abgestimmte Tätigkeiten* zum *Leiten und Lenken einer Organisation* bezüglich der *Qualität* die in einem Qualitätsmanagementsystem, beispielsweise einem QM-Handbuch, festgelegt werden.
+
 Qualitätssicherung
 ------------------
 
@@ -190,6 +192,8 @@ weitere Testverfahren
 
 Softwaremetriken
 ================
+
+TODO FILL ME
 
 Projektmanagement
 =================
@@ -297,3 +301,88 @@ Sie kann drei Alternativ-Richtungen verfolgen:
 ![](img/fortschreitende_verfeinerung2.jpg)
 
 Phasenentscheidungen bedeuten teilweise erheblichen **zeitlichen Aufwand**. Auch wenn dieser Aufwand, je nach Vereinbarung, nicht budget-relevant ist, sollte er dennoch **terminlich berücksichtigt** werden.
+
+#QM und QS in der Softwareentwicklung
+
+Warum scheitern Softwareprojekte?
+---------------------------------
+
+78% der europäischen Unternehmen messen dem Problem der Qualitätssicherung nur einen untergeordneten Stellenwert bei. Sie setzen **keine durchgängige, formale Methode** zur Sicherung von Qualität der Softwareentwicklung ein. Oftmals wird unter Qualitätsmanagement auch nur "testen" verstanden. Nur 2% der befragten Unternehmen setzen auf ein umfassendes Konzept bei der Kontrolle.
+
+Warum?
+
+1.	Firmen stehen unter Druck die **Kosten möglichst gering** zu halten und **schnell zu liefern**
+2.	Softwareprojekte waren in der Vergangenheit **einfacher und nicht so umfangreich**
+3.	**Scheinbare bessere Software-Engineering-Verfahren** und -Tools erübrigen systematische Qualitätssicherung
+4.	**Hohe Kosten** für die Einrichtung eines Qualitätsmanagementsystems
+
+### "Teufelsdreieck"
+
+![](img/teufelsdreieck.jpg)
+
+Ein Projekt bewegt sich im Spannungsfeld von **Qualität** (bzw. **Funktionalität**), **Budget** und **Termin**. Wenn nur zwei der drei Parameter im Auge behalten werden, so ist der dritte kaum zu kontrollieren.
+
+### Wartungsprobleme
+
+Während zu Beginn der Einführung eines Softwaresystems Mitarbeiter mit **hohem Know-How** Probleme von **geringer Komplexität** lösen, lösen zu einer späteren Phase Mitarbeiter mit **niedrigem Know-How** (lange nicht mehr mit dem System auseinandergesetzt, andere Tätigkeiten, ...) Probleme von **hoher Komplexität**. Dies verursacht hohe Kosten. Qualitätsmaßnahmen dienen dazu diese Kosten zu reduzieren.
+
+Organisatorische Einbettungen (3 Stück)
+---------------------------------------
+
+### 1. Aufbauorganisation
+
+In der Aufbauorganisation sind die **Hierarchieebenen** und **Leitungsfunktionen** geregelt, also wie die Softwarequalität in die **statische Struktur der Firma** eingebettet ist. Damit gute Softwarequalität auch gegen mögliche Widerstände durchgesetzt werden kann, sind zwei Regeln zu beachten:
+
+1.	**Qualität ist auf allen Unternehmensebenen vertreten** und bildet eine eigene **(Schatten-)Hierarchie**, parallel zu der Leitungshierarchie der Softwareentwicklung
+2.	Auf jeder Ebenen agieren die "Qualitätsleute" als **Stabsstellen der jeweiligen Führungskraft auf dieser Ebene**. Sie unterstützen die Führungskraft, *ohne selbst Leitungsaufgaben wahrzunehmen.*
+
+Durch diese Regeln sind die beiden Hierarchien zwar **auf allen Ebenen miteinander verbunden**, aber Leitungsverantwortliche können die Qualitätsfachleute **nicht zwingen** ihre Qualitätsansprüche zu senken, denn sie sind ihnen gegenüber nicht weisungsbefugt.
+
+![](img/aufbauorganisation1.jpg)
+
+### 2. Ablauforganisation
+
+Bei der Ablauforganisation geht es um die **dynamischen Abläufe und Prozesse** Aus der Sicht der Qualität ist daran interessant, dass das Qualitätsmanagement einfach einen **Unterstützungsprozess** für die Entwicklung bildet.
+
+![](img/ablauforganisation1.jpg)
+
+### 3. Qualitätsmanagementsystem
+
+> ... zur Verwirklichung des Qualitätsmanagements erforderliche Organisationsstruktur, Verfahren, Prozesse und Mittel.
+
+Die dritte organisatorische Einbettung ist das Qualitätsmanagementsystem (QMS), es gehören mindestens sechs Felder zum QMS:
+
+#### Qualitätspolitik
+
+Alle **übergeordneten Absichten und die Ausrichtung** einer Organisation zur Qualität, wie sie von der obersten Leitung formell ausgedrückt werden, sozusagen **die Einstellung und Grundsätze der Firma** zur Softwarequalität.
+
+-	Senkung der Software-Entwicklungs und -wartungskosten (z.B. durch Senkung des Personalaufwands für die Softwarewartung)
+-	**Qualitätsverbesserung** des Softwareprodukts
+-	**Transparenz des Projektfortschritts**
+
+#### Qualitätsziele
+
+Qualitätsziele sind die **angestrebten, zu erreichenden Ziele** bezüglich Qualität. Ein oder mehrere Qualitätsziele bilden zusammen eine **Qualitätsanforderung**.
+
+#### Qualitätsplanung
+
+Die Festlegung der für die Qualitätsziele notwendigen **Ausführungsprozesse** sowie der zugehörigen **Ressourcen** zur Erfüllung dieser Qualitätsziele.
+
+#### Qualitätslenkung
+
+Arbeitstechniken und Tätigkeiten sowohl zur **Überwachung eines Prozesses** als auch zur **Beseitigung von Ursachen nicht zufriedenstellender Ergebnisse**.
+
+#### Qualitätssicherung
+
+#### Qualitätsverbesserung
+
+Qualitätsverbesserung ist der Teil des Qualitätsmanagements, der auf die **Erhöhung der Fähigkeiten zur Erfüllung der Qualitätsziele** gerichtet ist.
+
+Qualitätssicherungsmodell
+-------------------------
+
+### Qualitätsmanagement-Handbuch
+
+### Operationalisierung der Qualitätsmerkmale
+
+### Qualitätsmerkmale und Qualitätsteilmerkmale
