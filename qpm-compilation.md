@@ -383,6 +383,55 @@ Qualitätssicherungsmodell
 
 ### Qualitätsmanagement-Handbuch
 
+-	gibt allen Mitarbeitern im Unternehmen in Inhalt und Struktur eines so genannten **Qualitätssicherungsmodells** vor, **auf welchem Wege** sie die Qualität des Entwicklungsprozesses selbst, sowie die Qualität aller Projektergebnisse gestalten können
+-	unternehmenesweite Festlegungen für **Softwarequalität und -qualitätssicherung**
+-	**Vorgaben, Standards und Aktivitäten** die die Qualität und Qualitätssicherung betreffen
+-	wird **im Unternehmen verteilt** und auch an **Externe** ausgegeben
+
+#### Entstehung
+
+1.	Bildung einer Arbeitsgruppe
+	-	bereichsübergreifendes Dokument, daher Bearbeitung durch ein Team von Vertretern der **wichtigsten Aufgaben- und Funktionsbereiche**
+	-	Team wird üblicherweise vom Leiter des Qualitätswesens geleitet
+2.	Sammlung der qualitätsrelevanten Unterlagen
+	-	**alle** relevanten Unterlagen werden zusammengetragen und gesichtet.
+	-	hierbei wird geklärt ob Dokument einem Kapitel des Handbuches oder den Verfahrens- und Arbeitsanweisungen zugehörig ist
+3.	Erstellung des organisatorischen Teils
+4.	Erster Entwurf einer Beschreibung der Elemente des QM-Systems
+5.	Durchsicht und Prüfung des Entwurfs
+	-	jedes Mitglied des Teams prüft Entwurf auf Korrektheit, Verständlichkeit, Vollständigkeit und Redundanzen
+6.	Abschließende Bearbeitung des Texts
+7.	Freigabe und Verteilung des Handbuchs
+	-	erfolgt durch den **Leiter des Qualitätswesens und die Geschäftsführung**
+	-	alle beteiligten unterschreiben
+
+#### Aufbau
+
+-	erster und zweiter Teil
+	-	für Führungskräfte des Unternehmens und Externe
+-	dritter Teil
+	-	steht im benötigten Umfang den Mitarbeitern der von den Inhalten betrofenen Bereiche zur Verfügung.
+	-	enthält präzise Angaben sowie schützenswertes Wissen und darf **nicht an Externe** weitergeben werden.
+
+##### Erster Teil
+
+Angaben zur **Organisation, zum Gebrauch, zur Herausgabe und zur Pflege** des Handbuchs
+
+##### Zweiter Teil
+
+**Ausführungen, WAS Inhalt des QM ist**
+
+1.	Zielsetzung
+2.	Anwendungsbereiche
+3.	Verantwortlichkeiten
+
+##### Dritter Teil (nur für internen Gebrauch)
+
+**organisiert die formaln Anlagen**
+
+1.	Beschreibung der angewandten Verfahren und Methoden (Arbeitsanweisungen)
+2.	Belege, Formblätter, mitgeltende Dokumente, Auflistung der zitierten Normen und Richtlinien...
+
 ### Operationalisierung der Qualitätsmerkmale
 
 ### Qualitätsmerkmale und Qualitätsteilmerkmale
