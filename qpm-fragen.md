@@ -111,7 +111,8 @@ WS2014:
 
 ![](img/ws11_hk_43.jpg)
 
-***TODO: Antwort finden***
+**Falsch**
+  Falsche Testfälle können falsche Rückschlüsse zu lassen, auf die Funktionalität des Projektes. Zb. Die Funktionalität als richtig vorweisen, obwohl Grenzfälle überhaupt nicht funktionieren.
 
 #### Im Qualitätsmanagement-Handbuch wird festgelegt, welche Qualität bei jedem Softwareprodukt gelten muss, und welche qualitätssichernden Maßnahmen durchgeführt werden. (WS2011/12 HK, SS2008 HK)
 
