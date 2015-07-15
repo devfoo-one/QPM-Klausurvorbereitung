@@ -52,18 +52,28 @@ Sechs Qualitätsmerkmale werden allgemin unterschieden. Diese können auf jede A
 		-	liefert die richtigen oder vereinbarten Ergebnisse
 	-	*Sicherheit*
 		-	beabsichtigten oder unbeabsichtigten unberechtigten Zugriff verhindern
+	-	*Interoperabilität*
+		-	Fähigkeit, mit externen Systemen zusammenzuwirken
+	-	*Angemessenheit*
+		-	Eignung der Funktion für die Aufgabe
+	-	*Ordnungsmäßigkeit*
+		-	Erfüllung anwenderspezifischer Normen, Vereinbarungen...
 	-	...
 -	**Zuverlässigkeit**
 	-	*Reife*
 		-	geringe Versagenshäufigkeit durch Fehlerzustände
 	-	*Wiederherstellbarkeit*
 		-	bei einem Versagen das Leistungsniveau wiederherstellen und die direkt betroffenen Daten wiedergewinnen
+	-	*Fehlertoleranz*
+		-	spezifiziertes Leistungsniveau bei Softwarefehlern bewahren
 	-	...
 -	**Benutzbarkeit**
 	-	*Verständlichkeit*
 		-	Aufwand für den Benutzer, das Konzept und die Anwendung zu verstehen
 	-	*Erlernbarkeit*
 		-	Aufwand für den Benutzer, die Anwendung zu erlernen
+	-	*Bedienbarkeit*
+		-	Aufand für den Benutzer, die Anwendung zu bedienen
 	-	...
 -	**Effizienz**
 	-	*Zeitverhalten*
@@ -78,6 +88,8 @@ Sechs Qualitätsmerkmale werden allgemin unterschieden. Diese können auf jede A
 		-	Aufwand zur Ausführung von Verbesserungen, zur Fehlerbeseitigung oder Anpassung an Umgebungsänderungen
 	-	*Prüfbarkeit*
 		-	Aufwand, der zur Prüfung der geänderten Software notwendig ist
+	-	*Stabilität*
+		-	Wahrscheinlichkeit des Auftretens unerwarteter Wirkungen von Änderungen, Seiteneffekte
 	-	...
 -	**Übertragbarkeit**
 	-	*Anpassbarkeit*
@@ -434,4 +446,26 @@ Angaben zur **Organisation, zum Gebrauch, zur Herausgabe und zur Pflege** des Ha
 
 ### Operationalisierung der Qualitätsmerkmale
 
-### Qualitätsmerkmale und Qualitätsteilmerkmale
+Die Operationalisierung der Qualitätsmerkmale wird in drei Stufen durchgeführt:
+
+1.	***Definition*** der Qualitätsziele und Qualitätsmerkmale
+2.	***Gewichtung*** der Qualitätsmerkmale
+3.	***Operationalisierung***, d.h. es werden **Qualitätsmaße definiert**
+
+![](img/operationalisierung1.jpg)
+
+-	**Qualitätsmaß** = welches Maß wird an welches Objekt angelegt, wie wird gemessen?
+-	**Zielwert** = konkreter Wert, gewünschtes Messergebnis
+
+#### Qualitätsmerkmale und Qualitätsteilmerkmale
+
+Softwarequalität wird durch **Qualitätsmerkmale** beschrieben. Diese Merkmale werden dann in **Teilmerkmale** oder **Teilkriterien** heruntergebrochen.
+
+-	**Qualitätsmerkmale** = *benutzerorientierte Sichtweise*
+	-	Kunde gibt grob an, was er meint in dem er ein Merkmal durch allgemeine Qualitätsmerkmale erklärt
+	-	z.B. "Benutzerfreundlichkeit"
+-	**Teilmerkmale** = *softwareorientierte Anforderungen*
+	-	Bedeutung der abstrakten Qualitätsziele auf die konkrete Situation
+	-	z.B. "Bedienbarkeit"
+
+Damit diese Anforderungen mit *analytischen Maßnahmen* **mess- und bewertbar** gemacht werden können, müssen die Teilmerkmale durch **Qualitätsindikatoren** bzw. **Metriken** beschrieben werden. Quantifizierbare Indikatoren werden mit Hilfe von **Qualitätsmaßen** quantitativ gemessen.
