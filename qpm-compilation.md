@@ -41,6 +41,8 @@ Was ist Qualität?
 Softwarequalität
 ----------------
 
+Die Softwarequalität gehört zu den **nicht-funktionalen Anforderungen** an ein Softwareprodukt.
+
 DIN ISO 9126:
 
 > Softwarequalität ist die Gesamtheit der **Merkmale** und **Merkmalswerte** eines Softwareprodukts, die sich auf die **Eignung** beziehen, festgelegte oder vorausgesetzte **Erfordernisse** zu erfüllen.
@@ -110,6 +112,8 @@ Qualitätssicherungsmaßnahmen
 Qualitätsmanagement
 -------------------
 
+***projektübergreifend***
+
 > **Qualitätsmanagement** umfasst alle Tätigkeiten der Gesamtführungsaufgabe, welche die **Qualitätspolitik, Ziele und Verantwortungen festlegen** sowie diese durch Mittel wie Qualitätsplanung, Qualitätslenkung, Qualitätssicherung und Qualitätsverbesserung im Rahmen des Qualitätsmanagementsystems **verwirklichen** (DIN EN ISO 8402)
 
 Qualitätsmanagement sind *strategische*, ***projektübergreifende***, *aufeinander abgestimmte Tätigkeiten* zum *Leiten und Lenken einer Organisation* bezüglich der *Qualität* die in einem Qualitätsmanagementsystem, beispielsweise einem QM-Handbuch, festgelegt werden.
@@ -117,19 +121,37 @@ Qualitätsmanagement sind *strategische*, ***projektübergreifende***, *aufeinan
 Qualitätssicherung
 ------------------
 
+***sichert ein einzelnes Projekt***
+
+> Qualitätssicherung ist der während der Durchführung des Projekts stattfindende, **operative Teil des Qualitätsmanagements**, der auf das Erzeugen von Vertraufen darauf gerichtet ist, dass vorgegebene Qualitätsanforderungen erfüllt werden.
+
+Das heißt, Qualitätsmanagement beschreibt in der Regel das, **was** im Projekt im Rahmen der Qualitätssicherung **wie** durchzuführen ist.
+
+Die Qualitätssicherung wird oft in drei Bereiche eingeteilt:
+
+1.	**Konstruktive** Qualitätssicherungsmaßnahmen
+	-	versuchen **vor Beginn** einer Entwicklungsphase, Probleme gar nicht erst entstehen zu lassen
+	-	z.B. QS-Checkliste
+2.	**Analytische** Qualitätssicherungsmaßnahmen
+	-	suchen Fehler in den Objekten der Qualitätssicherung, damit man sie beheben kann
+	-	**Objekte der QS** sind **alle Arbeitsergebnisse eines Projekts** (egal ob Dokumente oder Software)
+	-	können nur noch **nachträglich** Verbesserungen erwirken
+3.	**Organisatorische** Maßnahmen
+	-	schaffen den Rahmen, damit konstruktive und analytische QS-Maßnahmen wirken können.
+
 ### Analytische Verfahren zur Qualitätssicherung
 
-1.	Testende Verfahren (haben das **Ziel, Fehler zu erkennen.** )
+1.	**Testende** Verfahren (haben das **Ziel, Fehler zu erkennen.** )
 	-	Dynamische Testverfahren
 		-	Die Systemkomponente **wird ausgeführt** um Fehler zu finden.
 	-	Statische Testverfahren
 		-	Systemkomponente wird nicht ausgeführt, sondern **der Quellcode wird analysiert** um Fehler zu finden
-2.	Verifizierende Verfahren (**beweisen die Korrektheit einer Systemkomponente** )
+2.	**Verifizierende** Verfahren (**beweisen die Korrektheit einer Systemkomponente** )
 	-	Verifikation
 		-	beweist mit mathematischen Mitteln die Konsistenz zwischen der Spezifikation und der Implementierung einer Systemkomponente
 	-	Symbolische Ausführung
 		-	Ein Quellprogramm wird mit allgemeinen symbolischen Eingabewerten durch einen Interpreter ausgeführt
-3.	Analysierende Verfahren (**vermessen bestimmte Eigenschaften** von Systemkomponenten)
+3.	**Analysierende** Verfahren (**vermessen bestimmte Eigenschaften** von Systemkomponenten)
 	-	Analyse der Bindungsart
 		-	ein funktionales Modul soll funktional gebunden sein
 		-	eine funktionale Bindung liegt vor, wenn alle Elemente des Moduls an der Verwirklichung einer einzigen, abgeschlossenen Funktion beteiligt sind
