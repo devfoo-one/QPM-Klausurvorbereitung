@@ -160,6 +160,37 @@ Die Qualitätssicherung wird oft in drei Bereiche eingeteilt:
 	-	Grafiken und Tabellen
 		-	erlauben es ein Programm unter speziellen Gesichtspunkten zu analysieren und die Ergebnisse in gut lesbarer und interpretierbarer Form darzustellen
 
+### Qualitätssicherungsbeauftragter (QSB)
+
+> Da der Projektleiter die Gesamtverantwortung für das Projekt hat, sollte der QSB **das Qualitätsgewissen des Projektleiters** sein
+
+-	übernimmt die Aufgaben **Qualitätsplanung, Qualitätslenkung und Qualitätsverbesserung**
+-	QSB soll möglichst **nicht der Projektleiter** sein
+	-	ansonsten Zielkonflikte zwischen Termin, Funktionalität, Qualität und Budget (Teufelsdreieck)
+-	ist nur für die **Qualitätssicherungsmaßnahmen** verantwortlich, nicht aber für die Qualität selbst!
+
+#### Aufgaben, Kompetenzen und Verantwortlichkeiten (AKV)
+
+-	wichtig
+	-	Informatik-Hintergrund
+	-	Kommunikationsfähigkeit
+	-	Eigeninitiative
+	-	Pragmatische Einstellung
+	-	Durchsetzungs- und Konfliktfähigkeit
+-	ziemlich wichtig
+	-	grundlegende QM-/QS-Techniken (Test, Review)
+	-	speziellere Techniken (Usabilty, Qualitätsmodelle)
+	-	gängige Standards (DIN, ISO, IEEE)
+-	vorteilhaft
+	-	Kenntnis des Anwendungsbereichs
+
+### Die QS-Phasen im Vorgehensmodell
+
+-	zu Beginn jeder Phase wird das Ziel der Phase sowohl unter **Qualitätssicherungs-** als auch unter **Projektmanagement-Aspekten** geplant
+-	eine **Projektphase gilt erst dann als beendet**, wenn die geforderten Qualitätskriterien erfüllt wurden.
+
+![](img/qs_phasen1.jpg)
+
 Dynamische Testverfahren
 ========================
 
