@@ -655,7 +655,40 @@ Nach Durchführung der internen Systemtests beim Auftraggeber wird gemeinsam mit
 
 ### Testvorbereitung
 
-TODO FILL ME
+Die Testvorbereitung beschäftigt sich mit der **Auswahl der Methoden**, mit denen **Testfälle** und **Testdaten** erstellt werden, sowie mit der Erstellung selbst.
+
+#### Methode der Testfallermittlung
+
+Es wird festgelegt, welche **Technik der Testfalldefinition** (beispielsweise prozessorientierte, optimierte Entscheidungstabellentechnik, vollständiges Testen etc.) später zum Einsatz kommt. Diese Testfälle werden in einer Testfallschablone abgebildet, die genau der Vorgabe hinsichtlich der **Testabdeckung (C0, C1, C2, C-unendlich)** entspricht.
+
+#### Testfall
+
+Ein Testfall:
+
+-	ist eine **Verarbeitungseinheit im Testprozess** mit logischen bzw. fachlichen Zusammenhängen und Abhängigkeiten der einzelnen Testschritte untereinander
+-	ist **rücksetzbar**
+-	hat eine **eindeutig spezifizierte Datenbasis**
+
+Zu einem Testfall wird das **Testobjekt, die Testumgebung** und das erwartete **Ergebnis(Soll)** angegeben. Wichtig ist insbesondere, dass Testfälle **VOR** der der Testdurchführung formuliert sein müssen.
+
+Das Ziel der **technischen Testfälle** ist der Beweis, dass die Funktionalität des Systems bzw. Programms gewährleistet ist. Ihre Erstellung kann nach dem Entwurf des Systems erfolgen, wenn alle technischen Anforderungen definiert sind.
+
+Das Ziel der **fachlichen Testfalldefinition** ist der Beweis, dass das System oder Programm die fachlichen Anforderungen erfüllt. Weiter müssen Dateninhalte auf Richtigkeit geprüft werden. Diese Testfälle werden auf der Basis der fachlichen Vorgaben erstellt.
+
+![](img/testfall1.jpg)
+
+Es muss alles dokumentiert werden, was benötigt wird, um den Testfall zu reproduzieren.
+
+##### Testdaten
+
+-	Modultest
+	-	wenige, aber hoch-qualifizierte Testdaten
+-	Systemtest
+	-	viele, jedoch nicht so hoch qualifizierte Testdaten
+
+Die **Definition der technischen Testdaten** sollte möglichst abstrakt erfolgen. Da dies in der Praxis aufgrund der weiteren Verarbeitung auf fehlende Akzeptanz stoßen kann, müssen synthetische (automatisch generierte) Testdaten akzeptiert werden.
+
+Die **Definition der fachlichen Testdaten** muss hingegen praxisrelevant erfolgen. Dennoch sollten auch diese Testdaten immer synthetisch erstellt werden.
 
 Softwaremetriken
 ================
@@ -693,6 +726,8 @@ Codeüberdeckungsgrad
 --------------------
 
 Das übergeordnete Ziel besteht darin, mit **möglichst wenigen Testfällen alle Anweisungen, Zweige oder sogar Pfade im Testobjekt abzudecken.** Der Prozentsatz der abgedeckten Programmelemente heißt Codeüberdeckungsgrad. (code coverage). Damie werden die Testfälle im Verhältnis zum Quellcode bewertet.
+
+*In der Praxis begnügt man sich in der Regel mit C0 = 95% und C1 = 85% da der Testaufwand sonst zu hoch wird.*
 
 ### C0 (Anweisungsüberdeckung)
 
